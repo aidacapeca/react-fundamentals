@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import Volunteer from './DashboardSections/Volunteer';
 import TimeLine from './DashboardSections/Timeline';
-import Dashboard from './Dashboard';
+import Dashboard from './DashboardSections/Principal';
 
 
 export default class Breadcrumbs extends Component {

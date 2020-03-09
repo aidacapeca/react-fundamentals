@@ -6,7 +6,7 @@ import App from './App';
 import Header from './Components/Header';
 import Sidebar from './Components/Sidebar';
 import Breadcrumbs from './Components/Breadcrumbs';
-import Dashboard from './Components/Dashboard';
+import Dashboard from './Components/DashboardSections/Home';
 
 import * as serviceWorker from './serviceWorker';
 
