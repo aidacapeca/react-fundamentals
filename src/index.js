@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 
 import Header from './Components/Header';
 import Sidebar from './Components/Sidebar';
 import Breadcrumbs from './Components/Breadcrumbs';
-import Dashboard from './Components/DashboardSections/Home';
+import Dashboard from './Components/DashboardSections/Principal';
 
 import * as serviceWorker from './serviceWorker';
 
