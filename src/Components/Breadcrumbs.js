@@ -6,7 +6,7 @@ import TimeLine from './DashboardSections/Timeline';
 import Dashboard from './DashboardSections/Principal';
 import Education from './DashboardSections/Education';
 
-import './Styles/breadcrumbs.scss';
+import './Styles/breadcrumbs.css';
 
 export default class Breadcrumbs extends Component {
     volunteerDashboard() {
