@@ -18,23 +18,23 @@ export default class Header extends Component {
                             <li className="dropdown messages-menu">
                                 <a href="#" className="dropdown-toggle" data-toggle="dropdown">
                                     <i className="fa fa-envelope-o" />
-                                    <span className="label label-success">4</span>
+                                    <span className="label label-success">1</span>
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li className="header">You have 4 messages</li>
+                                    <li className="header">You have 1 new message</li>
                                     <li>
                                         {/* inner menu: contains the actual data */}
                                         <ul className="menu">
                                             <li>{/* start message */}
                                                 <a href="#">
                                                     <div className="pull-left">
-                                                        <img src="dist/img/acapeca-avatar.png" className="img-circle" alt="User Image" />
+                                                        <img src="dist/img/user6-128x128.jpg" className="img-circle" alt="User Image" />
                                                     </div>
                                                     <h4>
-                                                        Support Team
+                                                        ProfesionalProfiles
                       <small><i className="fa fa-clock-o" /> 5 mins</small>
                                                     </h4>
-                                                    <p>Why not buy a new awesome theme?</p>
+                                                    <p>Have you tried our app?</p>
                                                 </a>
                                             </li>
 
@@ -49,42 +49,22 @@ export default class Header extends Component {
                             <li className="dropdown notifications-menu">
                                 <a href="#" className="dropdown-toggle" data-toggle="dropdown">
                                     <i className="fa fa-bell-o" />
-                                    <span className="label label-warning">10</span>
+                                    <span className="label label-warning">1</span>
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li className="header">You have 10 notifications</li>
+                                    <li className="header">You have 1 notifications</li>
                                     <li>
                                         {/* inner menu: contains the actual data */}
                                         <ul className="menu">
                                             <li>
                                                 <a href="#">
-                                                    <i className="fa fa-users text-aqua" /> 5 new members joined today
+                                                    <i className="fa fa-users text-aqua" /> Manuel has accepted your friend request
                   </a>
                                             </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i className="fa fa-warning text-yellow" /> Very long description here that may not fit into the
-                                                    page and may cause design problems
-                  </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i className="fa fa-users text-red" /> 5 new members joined
-                  </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i className="fa fa-shopping-cart text-green" /> 25 sales made
-                  </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i className="fa fa-user text-red" /> You changed your username
-                  </a>
-                                            </li>
+                
+                    
                                         </ul>
                                     </li>
-                                    <li className="footer"><a href="#">View all</a></li>
                                 </ul>
                             </li>
                             {/* Tasks: style can be found in dropdown.less */}

@@ -49,6 +49,9 @@ export default class Volunteer extends Component {
                             <li data-target="#carousel-example-generic" data-slide-to={0} className="active" />
                             <li data-target="#carousel-example-generic" data-slide-to={1} className />
                             <li data-target="#carousel-example-generic" data-slide-to={2} className />
+                            <li data-target="#carousel-example-generic" data-slide-to={3} className />
+                            <li data-target="#carousel-example-generic" data-slide-to={4} className />
+                            <li data-target="#carousel-example-generic" data-slide-to={5} className />
                         </ol>
                         <div className="carousel-inner">
                             <div className="item active">
@@ -60,6 +63,18 @@ export default class Volunteer extends Component {
                             </div>
                             <div className="item">
                                 <img src="../../dist/img/volunteer/03.PNG" alt="Third slide" />
+
+                            </div>
+                            <div className="item">
+                                <img src="../../dist/img/volunteer/04.PNG" alt="Fourth slide" />
+
+                            </div>
+                            <div className="item">
+                                <img src="../../dist/img/volunteer/05.PNG" alt="Fith slide" />
+
+                            </div>
+                            <div className="item">
+                                <img src="../../dist/img/volunteer/06.PNG" alt="Sixth slide" />
 
                             </div>
                         </div>

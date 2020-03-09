@@ -22,14 +22,25 @@ export default class AboutMe extends Component {
                             <i class="fa fa-envelope-o margin-r-5"></i>Always answer using aida.capeca@gmail.com
                         </li>
                         <li className="list-group-item">
+                            <i class="fa fa-globe margin-r-5"></i>Languages
+                            <p>English (Advanced) - Spanish (Native) - Italian (Basic)</p>
+                        </li>
+                        <li className="list-group-item">
                             <i class="fa fa-pencil margin-r-5"></i> Skills
 
                         <p>
                                 <span class="label label-danger">UI Design</span>
-                                <span class="label label-success">Coding</span>
-                                <span class="label label-info">Javascript</span>
+                                <span class="label label-success">React</span>
+                                <span class="label label-info">Angular, AngularJS</span>
+                            </p><p>
                                 <span class="label label-warning">PHP</span>
-                                <span class="label label-primary">Node.js</span>
+                                <span class="label label-primary">HTML5</span>
+                                <span class="label label-danger">CSS3, SASS</span>
+                                <span class="label label-success">JavaScript, ES6</span>
+                            </p><p>
+                            
+                            <span class="label label-info">Adobe Photoshop, Illustrator</span>
+                            <span class="label label-warning">AdminLTE</span>
                             </p>
                         </li>
                     </ul>
